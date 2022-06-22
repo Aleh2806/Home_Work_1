@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingTop="65dp">
+
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите любой текст"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите ваше имя"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите телефон"
+        android:inputType="phone"
+        android:textColorHint="@color/black"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите номер"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите пароль"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите E-mail"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_700"
+        android:onClick="goBack"
+        android:text="Назад"
+        tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+</LinearLayout>

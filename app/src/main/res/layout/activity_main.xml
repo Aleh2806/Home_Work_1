@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#D011DD"
+        android:text="Мое первое приложение!"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:hint="Введите ваше имя"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColorHint="#000000"
+            android:textStyle="italic"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FB0D"
+            android:text="Кнопка"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="7dp"
+        android:layout_marginTop="180dp"
+        android:orientation="horizontal">
+
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:minHeight="48dp"
+            android:text="Включить"
+            android:textColor="#673AB7"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:minHeight="48dp"
+            android:text="Поставить галочку"
+            android:textColor="#FF0000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#29ACE1"
+            android:textColor="#1B5E20"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:paddingHorizontal="16dp">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple_700"
+            android:onClick="goSecondPage"
+            android:text="Перейти на 2-й макет"
+            tools:ignore="HardcodedText,UsingOnClickInXml" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
