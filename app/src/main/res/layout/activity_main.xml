@@ -97,8 +97,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/oval_button"
-            android:backgroundTint="@color/purple_500"
+            android:backgroundTint="@color/purple_700"
             android:onClick="goSecondPage"
             android:text="Перейти на 2-й макет"
             tools:ignore="HardcodedText,UsingOnClickInXml" />
